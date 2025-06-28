@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenu</title>
+    <style>
+               
+
+            body {
+                background-color: #ff981a57;
+            font-family: Arial, sans-serif ;
+            display: flex ;
+            flex-direction: column ;
+            align-items: center ;
+            }
+            #topbar{
+                background-color: white;
+                display: flex ;
+                position: fixed;
+                flex-direction: row-reverse ;
+                justify-content: start ;
+                align-items: center ;
+                width: 100% ;
+                padding: 10px  20px ;
+                margin-top: px ;
+                
+                box-shadow: 0 0 10px rgba(248, 113, 3, 0.938) ;
+        }
+        .item1,a{
+            margin: 20px ;
+            font-size: 16px ;
+            color: rgb(49, 49, 49) ;
+            font-weight: bold ;
+            cursor: pointer ;
+        }
+        #acc{
+            display: flex ;
+            flex-direction: row ;
+            justify-content: space-between ;
+            align-items: center ;
+            margin-left: 100px ;
+        }
+        #acc div{
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #logo{
+            margin-right: 50px;
+            margin-left: 30px;
+        }
+        .item1:hover,a:hover{
+            color: #ed5411;
+            
+        }
+        #contenu{
+            color: #ed5411;
+        }
+        #sign_in:hover,#log_in:hover{
+            margin: 14px;
+            cursor: pointer;
+            border: 1px solid #ed5411;
+            border-radius: 10px;
+            color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            background-color: white;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+        /* ---------------------------------------- begin of site ---------------------------------------- */
+        a{
+            text-decoration: none;
+            margin: 10px;
+            padding: 0 ;
+        }
+        .topmat{
+            color: rgb(49, 49, 49) ;
+            display: flex;
+            margin-top: 100px;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            border-bottom: #313131e5;
+        }
+        img{
+            margin: 15px;
+            
+        }
+        h1,h2{
+            color: rgb(49, 49, 49) ;
+            margin: 15px;
+        }
+        h3{
+            color: #ed5411 ;
+            margin: 15px;
+        }
+        .pdf{
+            background-color: white;
+            width: 97%;
+            
+
+        }
+        .chaptre{
+            color: rgb(49, 49, 49) ;
+            font-size: 30px;
+            width: 90%;
+            border: 1px solid rgba(49, 49, 49, 0.253)  ;
+            border-radius: 10px;
+            margin:25px;
+            height: 75px;
+            font-weight: bold;
+            padding:15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chaptre span {
+            margin-left: 10px;
+        }
+        .expand{
+            font-size: 20px ;
+            color: white;
+            margin: 15px;
+            background-color: #ed5411;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .expand:hover{
+            font-size: 20px ;
+            background-color: #ed53118f;
+            color: white ;
+            margin: 15px ;
+            /* border: #0528f3 solid 1px ; */
+            border-radius: 10px ;
+            padding: 10px ;
+            text-align: center;
+        }
+        
+        
+        
+        
+
+
+
+
+
+
+        /* ---------------------------------------- end of site ---------------------------------------- */
+        footer {
+            margin-top: 10px;
+            background-color: #ed5411;
+            color: #fff;
+            text-align: center;
+            bottom: 0;
+            position: relative;
+            width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <nav id="topbar">
+        <div id="acc">
+            <div id="sign_in" >Sign in</div>
+            <div id="log_in">Log in</div>
+        </div>
+        <div class="item1">Principale</div>
+        <div id="qsn" class="item1"><a href="./qsn.html">Qui somme nous ?</a></div>
+        <div class="item1" id="cntc"><a href="./contacter.html">Contacter nous</a> </div>
+        <div class="item1">Nos enseignant</div>
+        <div class="item1" id="contenu">Notre contenu</div>
+        
+        <img  id="logo" src="./logo-site.png" alt="3alamni">
+
+    </nav>
+    <!-- -------------------------------------------------------- -->
+    <div class="topmat">
+        
+            
+        <a href="pt1.html"><img src="./f1.1.png" alt="back"></a>
+            <h2>Physique (PT1)</h3>
+        
+    </div>
+    <!-- -------------------------------------------------------- -->
+    <div class="pdf">
+        <h1>Physique (PT1)</h1>
+        <h2>Contenu du cours</h2>
+        
+        <h3>Partie I. Optique Géométrique</h3>
+        <div class="chaptre">
+
+            <span>Ch1. Introduction et principe de l’optique géométrique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1rAKm2jOaz2vBMtqn6sNw3VpLI27yDitT/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1voeO7mh-LJD-XBh3UUJtWAqf-VrHH9M4/view?usp=drive_link">TD</a>
+                
+            </section>
+            
+        </div>   
+
+        <div class="chaptre">
+                                          
+            <span>Ch2. Systèmes Optiques à Faces Planes</span> 
+            <section class="btn">
+                <a  class="expand" href=https://drive.google.com/file/d/1IgOQv87uq7hpQp0WbE7ezoK3kKvIPqEb/view?usp=drive_link">Cours</a> 
+                <a  class="expand" href="https://drive.google.com/file/d/1vBuHu6Vg_1vde8_v1ZK-LOQLckFbMjcl/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div>
+        <div class="chaptre">
+            
+            <span>Ch3. Lentilles Minces</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/18kp1drsoZHVs6UHhAo6Yu8RoD2E9xFd6/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/14FGmEOh8OAt_e2BRdFS5vFSoo9FFgti8/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+            <h3>Partie II. Electrostatique et Magnétostatique</h3>
+        <div class="chaptre">
+            
+            <span>Ch4. Système De Coordonnées</span> 
+            <section class="btn"> 
+                <a  class="expand" href="https://drive.google.com/file/d/19gP4h_Go93cmZMD7_GVlLqmyUwN_cX49/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1as7lJ_ncYPZtBhYknhxPXuCD1_UdhZ22/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch5. Loi De Coulomb Champ Et Potentiel Électrostatique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/17klXe6e_osT1-3YL74p-MsNJI8dCHZ7D/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1VkdzWW2SRqFDK7wvaO_5eEjLndAzrpxS/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch6. Théorème De Gauss</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1UHdy_fSzDSD93wXAoKqYH5G1zG2gm22L/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1VkdzWW2SRqFDK7wvaO_5eEjLndAzrpxS/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch7. Dipôle Electrostatique </span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1fReWE_o_F-oghDAGKAF4eLGZg1A-bOfQ/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1VkdzWW2SRqFDK7wvaO_5eEjLndAzrpxS/view?usp=drive_link">TD</a>
+            </section>
+
+        </div>
+
+        
+        <div class="chaptre">   
+            <span>Ch8. Champ magnétique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1SFIK0qciJS1ikqOoMvZzDbI1PkIpyaNK/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1VkdzWW2SRqFDK7wvaO_5eEjLndAzrpxS/view?usp=drive_link">TD</a>
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch9. Dipôle Magnétique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1Ch5d3sc2_ug7EvYfR91gk3Kng8IteKOJ/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1VkdzWW2SRqFDK7wvaO_5eEjLndAzrpxS/view?usp=drive_link">TD</a>
+            </section>
+
+        </div>
+        <h3>Partie III. Mécanique</h3>
+        
+        <div class="chaptre">
+            
+            <span>Ch10. Cinématique du point matériel</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1GNvVPaJuEitLrRvKJSfAVxmQtBiIGfLU/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1SldtjXAx69YVVY-Jh_nCf5MFsXry75-3/view?usp=drive_link">Résume</a>
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch11. dynamique du point matériel</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/11jAq4IXVsTbvM4HQ_F1NnVL_zKFu2m7a/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1VymECrc7Ty4QmvHTe3BgSYms9qNhRZ9b/view?usp=drive_link">TD</a>
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch12. les théorèmes généraux de la dynamique du point matériel</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/11jAq4IXVsTbvM4HQ_F1NnVL_zKFu2m7a/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1VymECrc7Ty4QmvHTe3BgSYms9qNhRZ9b/view?usp=drive_link">TD</a>
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch14. mouvement dans un champ de force centrale</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1yDhuRnGACa_hj2UBrUBiB1WelCANf0uG/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/19sXU-6aMuNho-wECT3LHmemVKj0KKmsH/view?usp=drive_link">TD</a>
+            </section>
+
+        </div>
+        <div class="chaptre">
+            
+            <span>Ch15. Réferentiel Non Galiléen – Changement De Référentiel</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1G-u13ZPRCjDUVbBPJ-MbppykLv23snvy/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1-mPccov2Uf8n9gj1u_8FqRe1cgMWeA16/view?usp=drive_link">TD</a>
+            </section>
+
+        </div>
+        <h3>Partie IV. Thermodynamique </h3>
+
+
+<div class="chaptre">
+            
+    <span>Ch16. Notions Fondamentales de La Thermodynamique</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1HkxtchsMDsiGpozIrOupNVGgSiJUQfDz/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/1_HFchuOlDJl6CVnpgNDGI2s1B6umZpV9/view?usp=drive_link">TD</a>
+    </section>
+
+</div>
+
+<div class="chaptre">
+            
+    <span>Ch17. Energie d’un système thermodynamique </span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1K3c6R6IDmHnPU3EWCCR09TTJWFGEnGdC/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/1_HFchuOlDJl6CVnpgNDGI2s1B6umZpV9/view?usp=drive_link">TD</a>
+    </section>
+
+</div>
+
+<div class="chaptre">
+            
+    <span>Ch18. Premier Principe De La Thermodynamique</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1yJpfpOKh-AhXtR82lEf2B7YK4WK7susC/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/1_HFchuOlDJl6CVnpgNDGI2s1B6umZpV9/view?usp=drive_link">TD</a>
+    </section>
+
+</div>
+
+<div class="chaptre">
+            
+    <span>Ch19. Deuxième Principe De La Thermodynamique</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1OW5nZzzg6P29Ei15gTYngTj3ycza5bl3/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/1_HFchuOlDJl6CVnpgNDGI2s1B6umZpV9/view?usp=drive_link">TD</a>
+    </section>
+
+</div>
+
+<div class="chaptre">
+            
+    <span>Ch20. Systèmes Ouverts En Régime Stationnaire</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1Go8dcqCcGg1J9GrKdc_LgPSWjkpLpyLG/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/1awUXkC_ejUToVVdwJPGN_UKmWgPpt1RU/view?usp=drive_link">TD</a>
+    </section>
+
+</div>
+
+<div class="chaptre">
+            
+    <span>Ch21. Machines Thermiques</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1Go8dcqCcGg1J9GrKdc_LgPSWjkpLpyLG/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/1j6maBUugpUYdMmgyME5IH6b1RJ_gQxt7/view?usp=drive_link">TD</a>
+    </section>
+
+</div>
+<h3> Partie V. Electrocinétique</h3>
+
+
+<div class="chaptre">
+            
+    <span>Ch22. Circuits éléctriques dans le cadre de l’approximation des régimes quasi-stationnaires</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1zxXInV6AMETiV2berSMUJKqeAUn6OoH7/view?usp=drive_link">Cours</a>
+        
+    </section>
+
+</div>
+
+<div class="chaptre">
+            
+    <span>Ch23. Régimes Transitoires Des Circuits RLC</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1I4h_vQcpkWbIjvVx0nM1EMqwn9jVuZuY/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/18cPHspKCHE1yarcuHgA_fK0wu6c9ZGTY/view?usp=drive_link">TD</a>
+    </section>
+    
+</div>
+
+<div class="chaptre">
+            
+    <span>Ch24. Régime Sinusîdale forcé</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1n7A9o-J7vve0-DdyXGuj-GM13rDiTP7t/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/1D7HAJqtXpcNN3LFHfcXuJ_OoFhFpt9dD/view?usp=drive_link">TD</a>
+    </section>
+
+</div>
+
+<div class="chaptre">
+            
+    <span>Ch25. Quadripôle, Filtre de Premier ordre</span> 
+    <section class="btn">
+        <a  class="expand" href="https://drive.google.com/file/d/1n7A9o-J7vve0-DdyXGuj-GM13rDiTP7t/view?usp=drive_link">Cours</a>
+        <a  class="expand" href="https://drive.google.com/file/d/1D7HAJqtXpcNN3LFHfcXuJ_OoFhFpt9dD/view?usp=drive_link">TD</a>
+    </section>
+
+</div>
+
+</div>
+    <footer>
+        <p>&copy; 2024 Site 3alamni.tn . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

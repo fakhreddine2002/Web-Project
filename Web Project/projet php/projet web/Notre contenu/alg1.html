@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenu</title>
+    <style>
+               
+
+            body {
+                background-color: #ff981a57;
+            font-family: Arial, sans-serif ;
+            display: flex ;
+            flex-direction: column ;
+            align-items: center ;
+            }
+            #topbar{
+                background-color: white;
+                display: flex ;
+                position: fixed;
+                flex-direction: row-reverse ;
+                justify-content: start ;
+                align-items: center ;
+                width: 100% ;
+                padding: 10px  20px ;
+                margin-top: px ;
+                
+                box-shadow: 0 0 10px rgba(248, 113, 3, 0.938) ;
+        }
+        .item1,a{
+            margin: 20px ;
+            font-size: 16px ;
+            color: rgb(49, 49, 49) ;
+            font-weight: bold ;
+            cursor: pointer ;
+        }
+        #acc{
+            display: flex ;
+            flex-direction: row ;
+            justify-content: space-between ;
+            align-items: center ;
+            margin-left: 100px ;
+        }
+        #acc div{
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #logo{
+            margin-right: 50px;
+            margin-left: 30px;
+        }
+        .item1:hover,a:hover{
+            color: #ed5411;
+            
+        }
+        #contenu{
+            color: #ed5411;
+        }
+        #sign_in:hover,#log_in:hover{
+            margin: 14px;
+            cursor: pointer;
+            border: 1px solid #ed5411;
+            border-radius: 10px;
+            color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            background-color: white;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+        /* ---------------------------------------- begin of site ---------------------------------------- */
+        a{
+            text-decoration: none;
+            margin: 10px;
+            padding: 0 ;
+        }
+        .topmat{
+            color: rgb(49, 49, 49) ;
+            display: flex;
+            margin-top: 100px;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            border-bottom: #313131e5;
+        }
+        img{
+            margin: 15px;
+            
+        }
+        h1,h2,h3{
+            color: rgb(49, 49, 49) ;
+            margin: 15px;
+        }
+        .pdf{
+            background-color: white;
+            width: 97%;
+        }
+        .chaptre{
+            color: rgb(49, 49, 49) ;
+            font-size: 30px;
+            width: 90%;
+            border: 1px solid rgba(49, 49, 49, 0.253)  ;
+            border-radius: 10px;
+            margin:25px;
+            height: 75px;
+            font-weight: bold;
+            padding:15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chaptre span {
+            margin-left: 10px;
+        }
+        .expand{
+            font-size: 20px ;
+            color: white;
+            margin: 15px;
+            background-color: #ed5411;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .expand:hover{
+            font-size: 20px ;
+            background-color: #ed53118f;
+            color: white ;
+            margin: 15px ;
+            /* border: #0528f3 solid 1px ; */
+            border-radius: 10px ;
+            padding: 10px ;
+            text-align: center;
+        }
+        /* ---------------------------------------- end of site ---------------------------------------- */
+        footer {
+            margin-top: 10px;
+            background-color: #ed5411;
+            color: #fff;
+            text-align: center;
+            bottom: 0;
+            position: relative;
+            width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <nav id="topbar">
+        <div id="acc">
+            <div id="sign_in" >Sign in</div>
+            <div id="log_in">Log in</div>
+        </div>
+        <div class="item1">Principale</div>
+        <div id="qsn" class="item1"><a href="./qsn.html">Qui somme nous ?</a></div>
+        <div class="item1" id="cntc"><a href="./contacter.html">Contacter nous</a> </div>
+        <div class="item1">Nos enseignant</div>
+        <div class="item1" id="contenu">Notre contenu</div>
+        
+        <img  id="logo" src="./logo-site.png" alt="3alamni">
+
+    </nav>
+    <!-- -------------------------------------------------------- -->
+    <div class="topmat">
+        
+            
+        <a href="pt1.html"><img src="./f1.1.png" alt="back"></a>
+            <h2>Algèbre (PT1)</h3>
+        
+    </div>
+    <!-- -------------------------------------------------------- -->
+    <div class="pdf">
+        <h1>Algèbre (PT1)</h1>
+        <h2>Contenu du cours</h2>
+        
+        
+        <div class="chaptre">
+
+            <span>Ch1.Nombres complexes</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1oTE2vbKRovV1kCl6DM9QfDqzbaRC98ds/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1dVsfb3kUA-ugiHSGDr1dawYNbfmjmK6m/view?usp=drive_link">TD</a>
+                
+            </section>
+            
+        </div>   
+
+        <div class="chaptre">
+                                          
+            <span>Ch2.Calculs algebriques</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1LET_tY-ImrJFrYF4Cv_tcf2CclquCrfE/view?usp=drive_link">Cours</a> 
+                <a  class="expand" href="https://drive.google.com/file/d/1UuvnMYO886oYCCNhi45D5IPGPsuNoV8u/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div>
+        <div class="chaptre">
+            
+            <span>Ch3.Ensemble et applications</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/10h2RiWrbkQhARhcDjKR1Twcu6ydHEL20/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1r-OUPHuc_R4XhtZKJ3pwDqZgOpAIXDBu/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch4.Arithmetique</span> 
+            <section class="btn"> 
+                <a  class="expand" href="https://drive.google.com/file/d/1f22qzILM2Ku9VEbXnNmbQ4OvuNbncWJR/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1zZtwg5T8zoBYPP-s2orT25--fj06bYpD/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch5.Polynomes</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1GyJtlagBQAfivCPpKuhw7ZUL4KwZVlKp/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1DHy-HWN_P9438ErSK53_c6jW7oFAimhC/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch6.Espaces vectoriels et applications lineaires</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1X6iXmi3DJozX0Sri8QhhqICggN-6BIgK/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1zq0TKKNoUPu2HbFWXuzxHb8ZPMJRbQsa/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch7.Espaces vectoriels de dimension finie </span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1mi_r5uyRpvScfnYcHasKqHK93IHPJDq3/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1gd3IRY26GUGJy8P0uMgIf-GSzKNtY5D7/view?usp=drive_link">TD</a>
+            </section>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Site 3alamni.tn . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

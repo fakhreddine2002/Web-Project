@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chimie 1er année pt</title>
+    <style>
+               
+
+            body {
+                background-color: #ff981a57;
+            font-family: Arial, sans-serif ;
+            display: flex ;
+            flex-direction: column ;
+            align-items: center ;
+            }
+            #topbar{
+                background-color: white;
+                display: flex ;
+                position: fixed;
+                flex-direction: row-reverse ;
+                justify-content: start ;
+                align-items: center ;
+                width: 100% ;
+                padding: 10px  20px ;
+                margin-top: px ;
+                box-shadow: 0 0 10px rgba(248, 113, 3, 0.938) ;
+            }
+        .item1,a{
+            margin: 20px ;
+            font-size: 16px ;
+            color: rgb(49, 49, 49) ;
+            font-weight: bold ;
+            cursor: pointer ;
+        }
+        #acc{
+            display: flex ;
+            flex-direction: row ;
+            justify-content: space-between ;
+            align-items: center ;
+            margin-left: 100px ;
+            
+        }
+        #acc div{
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #logo{
+            margin-right: 50px;
+            margin-left: 30px;
+        }
+        .item1:hover,a:hover{
+            color: #ed5411;
+            
+        }
+        #contenu{
+            color: #ed5411;
+        }
+        #sign_in:hover,#log_in:hover{
+            margin: 14px;
+            cursor: pointer;
+            border: 1px solid #ed5411;
+            border-radius: 10px;
+            color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            background-color: white;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+        /* ---------------------------------------- begin of site ---------------------------------------- */
+        a{
+            text-decoration: none;
+            margin: 0;
+            padding: 0 ;
+        }
+        .topmat{
+            color: rgb(49, 49, 49) ;
+            display: flex;
+            margin-top: 100px;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            border-bottom: #313131e5;
+        }
+        img{
+            margin: 15px;
+            
+        }
+        h1,h2{
+            color: rgb(49, 49, 49) ;
+            margin: 15px;
+        }
+        h3{
+            font-size: 35px;
+            color: rgb(0, 0, 0) ;
+            margin: 15px;
+        }
+        .pdf{
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.5) ;
+            background-color : white;
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 15px;
+        }
+        .pdf h3 {
+            font-size: 25px;
+        }
+        .chaptre{
+            color: rgb(49, 49, 49) ;
+            font-size: 30px;
+            width: 70%;
+            border: 1px solid rgba(49, 49, 49, 0.253)  ;
+            border-radius: 10px;
+            margin:10px;
+            height: 55px;
+            font-weight: bold;
+            padding:15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chaptre span {
+            width: 600px;
+            font-size: 24px;
+        }
+        .expand{
+            font-size: 20px ;
+            color: white;
+            margin: 15px;
+            padding-right: 6px;
+           padding-left: 6px;
+            background-color: #ed5411;
+            border: none;
+            border-radius: 7px;
+            padding: 4px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .expand:hover{
+            font-size: 20px ;
+            background-color: #ed53118f;
+            color: white ;
+
+            
+            /* border: #0528f3 solid 1px ; */
+            border-radius: 7px ;
+            
+            text-align: center;
+        }
+        .ligne{
+            width: 100%;
+            height: 2px;
+            background-color: rgb(196, 196, 196);
+        }
+        .alg{
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* ---------------------------------------- end of site ---------------------------------------- */
+        footer {
+            margin-top: 50px;
+            background-color: #ed5411;
+            color: #fff;
+            text-align: center;
+            bottom: 0;
+            position: relative;
+            width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <nav id="topbar">
+        <div id="acc">
+            <div id="sign_in"><a href="../formulaire/signin.php">Inscription</a></div> 
+            <div id="log_in"><a href="../formulaire/login.php">Connexion</a></div> 
+        </div> 
+        <div class="item1"><a href="../opening and acceuille/Aceuille.html"> Principale</a></div> 
+        <div id="qsn" class="item1"><a href="../qsn/qsn.html">Qui somme nous ?</a></div> 
+        <div class="item1"  ><a  href="../contacter nous/contacter.php" id="cntc">Contacter nous</a> </div> 
+        <div class="item1"><a href="../enseignants/professors.html"> Nos enseignant</a></div> 
+        <div class="item1" ><a href="../Notre contenu/contenu.html" id="contenu">Notre contenu</a> </div> 
+        <img  id="logo" src="./logo-site.png" alt="3alamni">
+
+    </nav>
+    <!-- -------------------------------------------------------- -->
+
+    <div class="topmat">
+        
+            
+        <a href="pt1.html"><img src="./retour 62px.png" alt="back"></a>
+        
+            <h3>Chimie (pt1)</h3>
+        
+    </div> 
+    <!-- -------------------------------------------------------- -->
+    <div class="pdf">
+        <div class="alg"><h1>Chimie (PT1)</h1></div>
+        <div class="ligne"></div>
+        <div style="display: flex;justify-content: center "><h2>Contenu du cours</h2></div>
+    
+        <h3>THÈME 1 : ATOMISTIQUE</h3>
+        <div style="display: flex;justify-content: center ">
+        <div class="chaptre">
+
+            
+            <span>Ch1. Structure de L’Atome</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1AZ9guuA5JfhzCS4UdzSFcbeIajR4b2vn/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1rj40kgkC9QNYZgXND2MISk29ZG0FHt6h/view?usp=drive_link">TD</a>
+                
+            </section>
+            </section>
+
+        </div> </div> 
+        
+        
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+                                          
+            <span>Ch2. Le modèle quantique de l’atome</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1lBbMXoAzG8Rj8ixisXtU95QT3lbMn48A/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1n7efcZG9tJuZhAo5b5WtNv2WMe3XGuKh/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div> </div>
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch3. Configuration Electroniques des Atomes</span> 
+            <section class="btn"> 
+                <a  class="expand" href="https://drive.google.com/file/d/1ldoAHGEp9Sxgz9nvJKDEfMUUColYC21d/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1bUbNmTIMLePPixe-fAOIiGgi0_SE9adZ/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div> </div>
+
+        
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch4. Tableau Périodique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1Ti6pJMIE4Jl8_RB2N2BSD_3Od1qxKUgK/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1bUbNmTIMLePPixe-fAOIiGgi0_SE9adZ/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch5. La Liaison Chimique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1Ir2lgNkN7u0jdbmfo1g5OS0kBlbqXQni/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1rgrFPwZjSfTmTFERSQ7iAPc4kwDQVF5f/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch6. Géométrie Des Molécules – Règle de GILLESPIE</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1odPbSzL4tU3MFir8qe-EyAzEc5F5P1gm/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1bUbNmTIMLePPixe-fAOIiGgi0_SE9adZ/view?usp=drive_link">TD</a>
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch7. Liaison Covalente Polaire – Moment Dipolaire</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1j3XMXQxmC12SlgJBc2vaJeBtGKJOlqJm/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1bUbNmTIMLePPixe-fAOIiGgi0_SE9adZ/view?usp=drive_link">TD</a>
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+            <div class="chaptre">
+                
+                <span>Ch8. Solvants Moléculaires</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1j5oUb5nL8K6WCb2rkAZphxIWf6dRx39m/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1bUbNmTIMLePPixe-fAOIiGgi0_SE9adZ/view?usp=drive_link">TD</a>
+            </section>
+
+    
+            </div> </div>
+            <h3>THÈME 2 : THERMODYNAMIQUE ET CINETIQUE CHIMIQUE</h3>
+            <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                    
+                    <span>Ch9. Introduction À La Thermodynamique Chimique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1CruXpCNSYfYkGQcJK2DL5I9DKOuFdIkh/view?usp=drive_link">Cours</a>
+                
+                
+            </section>
+        
+                </div> </div>
+                
+    
+            <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                <span>Ch10. Le Premier Principe De La Thermodynamique</span> 
+                <section class="btn"> 
+                    <a  class="expand" href="https://drive.google.com/file/d/1gDgAJWIh54758u0JPpXR-q1IJRrGokwV/view?usp=drive_link">Cours</a>
+                    <a  class="expand" href="https://drive.google.com/file/d/1aSmeYd-if5THjZBx0Q57vjLc5VtwWkOW/view?usp=drive_link">TD</a>
+                    
+                </section>
+
+            
+            </div> </div>
+        
+            <div style="display: flex;justify-content: center">
+                        <div class="chaptre">
+                            <span>Ch11. Deuxième Principe De La Thermodynamique</span> 
+                            <section class="btn">
+                                <a  class="expand" href="https://drive.google.com/file/d/1Wh9_cyR-xbvCPIy78q_4uCYJ76JdfEMf/view?usp=drive_link">Cours</a>
+                                <a  class="expand" href="https://drive.google.com/file/d/1maErSOFx_1QhRZ2Al5kCMvtMwbisLfy_/view?usp=drive_link">TD</a>
+                                
+                            </section>
+                
+                        </div> </div>
+            <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                    <span>Ch12. Troisième Principe De La Thermodynamique</span> 
+                    <section class="btn">
+                        <a  class="expand" href="https://drive.google.com/file/d/1yZT10SRILM1e4pxf2aPrm9ALZ74w_QcT/view?usp=drive_link">Cours</a>
+                        <a  class="expand" href="https://drive.google.com/file/d/1maErSOFx_1QhRZ2Al5kCMvtMwbisLfy_/view?usp=drive_link">TD</a>
+                        
+                    </section>
+                    
+            </div> </div>
+
+            <div style="display: flex;justify-content: center ">
+                <div class="chaptre">
+        
+                     
+                    <span>Ch13. Les Équilibres Chimiques</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1pPkdcx1p7CqJbwPB04lqKFi52j-rXMFm/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1--KOyB1Lr0pXKYJ5l0mWjuBLg5h53IeQ/view?usp=drive_link">TD</a>
+            </section>
+        
+                </div> </div> 
+                
+                
+        
+                <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                                                  
+                    <span>Ch14. Les Équilibres En Solution Aqueuse</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1pPkdcx1p7CqJbwPB04lqKFi52j-rXMFm/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1SXO0HAs6G64-UriISURhFcom4LE-9So5/view?usp=drive_link">TD</a>
+                
+            </section>
+                </div> </div>
+                
+                <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                    
+                    <span>Ch15. Équilibres D’oxydo-réduction</span> 
+                    <section class="btn"> 
+                        <a  class="expand" href="https://drive.google.com/file/d/1t5BdAhWN6zXRCA8w-3Ds9sfDHFBFeIBj/view?usp=drive_link">Cours</a>
+                        <a  class="expand" href="https://drive.google.com/file/d/1zluYnfPT2GzPl2J6l68_cNdNQocH6G27/view?usp=drive_link">TD</a>
+                        
+                    </section>
+        
+                </div> </div>
+        
+                <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                    
+                   
+            <span>Ch16. La Cinétique Chimique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1bGF_3y6O7cIGBeenNnduBQSWO4x8fZnU/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1v8r9MyxYRlMEzYXOTvAVW_hFhS5VmgJ6/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        
+                </div> </div>
+        
+                <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                    
+                    <span>Revision Oxydoreduction et Cinetique Chimique</span> 
+                    <section class="btn">
+                        
+                        <a  class="expand" href="https://drive.google.com/file/d/1urE53YqK0gFByDYUj68iQUprOdXxKY2b/view?usp=drive_link">TD</a>
+                        
+                    </section>
+                </div> </div>
+                      
+    
+                
+            
+                   
+        
+                        
+ 
+
+    <footer>
+        <p>&copy; 2024 Site 3alamni.tn . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

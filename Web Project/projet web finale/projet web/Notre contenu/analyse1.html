@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse  1er année pt</title>
+    <style>
+               
+
+            body {
+                background-color: #ff981a57;
+            font-family: Arial, sans-serif ;
+            display: flex ;
+            flex-direction: column ;
+            align-items: center ;
+            }
+            #topbar{
+                background-color: white;
+                display: flex ;
+                position: fixed;
+                flex-direction: row-reverse ;
+                justify-content: start ;
+                align-items: center ;
+                width: 100% ;
+                padding: 10px  20px ;
+                margin-top: px ;
+                box-shadow: 0 0 10px rgba(248, 113, 3, 0.938) ;
+            }
+        .item1,a{
+            margin: 20px ;
+            font-size: 16px ;
+            color: rgb(49, 49, 49) ;
+            font-weight: bold ;
+            cursor: pointer ;
+        }
+        #acc{
+            display: flex ;
+            flex-direction: row ;
+            justify-content: space-between ;
+            align-items: center ;
+            margin-left: 100px ;
+            
+        }
+        #acc div{
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #logo{
+            margin-right: 50px;
+            margin-left: 30px;
+        }
+        .item1:hover,a:hover{
+            color: #ed5411;
+            
+        }
+        #contenu{
+            color: #ed5411;
+        }
+        #sign_in:hover,#log_in:hover{
+            margin: 14px;
+            cursor: pointer;
+            border: 1px solid #ed5411;
+            border-radius: 10px;
+            color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            background-color: white;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+        /* ---------------------------------------- begin of site ---------------------------------------- */
+        a{
+            text-decoration: none;
+            margin: 0;
+            padding: 0 ;
+        }
+        .topmat{
+            color: rgb(49, 49, 49) ;
+            display: flex;
+            margin-top: 100px;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            border-bottom: #313131e5;
+        }
+        img{
+            margin: 15px;
+            
+        }
+        h1,h2{
+            color: rgb(49, 49, 49) ;
+            margin: 15px;
+        }
+        h3{
+            font-size: 35px;
+            color: rgb(0, 0, 0) ;
+            margin: 15px;
+        }
+        .pdf{
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.5) ;
+            background-color : white;
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 15px;
+        }
+        .chaptre{
+            color: rgb(49, 49, 49) ;
+            font-size: 30px;
+            width: 70%;
+            border: 1px solid rgba(49, 49, 49, 0.253)  ;
+            border-radius: 10px;
+            margin:10px;
+            height: 55px;
+            font-weight: bold;
+            padding:15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chaptre span {
+            margin-left: 10px;
+            font-size: 24px;
+        }
+        .expand{
+            font-size: 20px ;
+            color: white;
+            margin: 15px;
+            padding-right: 6px;
+           padding-left: 6px;
+            background-color: #ed5411;
+            border: none;
+            border-radius: 7px;
+            padding: 4px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .expand:hover{
+            font-size: 20px ;
+            background-color: #ed53118f;
+            color: white ;
+
+            
+            /* border: #0528f3 solid 1px ; */
+            border-radius: 7px ;
+            
+            text-align: center;
+        }
+        .ligne{
+            width: 100%;
+            height: 2px;
+            background-color: rgb(196, 196, 196);
+        }
+        .alg{
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* ---------------------------------------- end of site ---------------------------------------- */
+        footer {
+            margin-top: 50px;
+            background-color: #ed5411;
+            color: #fff;
+            text-align: center;
+            bottom: 0;
+            position: relative;
+            width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <nav id="topbar">
+        <div id="acc">
+            <div id="sign_in"><a href="../formulaire/signin.php">Inscription</a></div> 
+            <div id="log_in"><a href="../formulaire/login.php">Connexion</a></div> 
+        </div> 
+        <div class="item1"><a href="../opening and acceuille/Aceuille.html"> Principale</a></div> 
+        <div id="qsn" class="item1"><a href="../qsn/qsn.html">Qui somme nous ?</a></div> 
+        <div class="item1"  ><a  href="../contacter nous/contacter.php" id="cntc">Contacter nous</a> </div> 
+        <div class="item1"><a href="../enseignants/professors.html"> Nos enseignant</a></div> 
+        <div class="item1" ><a href="../Notre contenu/contenu.html" id="contenu">Notre contenu</a> </div> 
+        <img  id="logo" src="./logo-site.png" alt="3alamni">
+
+    </nav>
+    <!-- -------------------------------------------------------- -->
+
+    <div class="topmat">
+        
+            
+        <a href="pt1.html"><img src="./retour 62px.png" alt="back"></a>
+        
+            <h3>Analyse (pt1)</h3>
+        
+    </div> 
+    <!-- -------------------------------------------------------- -->
+    <div class="pdf">
+        <div class="alg"><h1>Analyse (PT1)</h1></div>
+        <div class="ligne"></div>
+        <div style="display: flex;justify-content: center ">
+        <h2>Contenu du cours</h2>
+    </div>
+        
+        <div style="display: flex;justify-content: center ">
+        <div class="chaptre">
+
+             
+            <span>Ch1. Calcul dans R</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1OmqDKGmOOM5RY33VDlEl9IiFJYj707Sf/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1uVWRIT-pjhGvWX_s-tg14Ybtlb3LXVba/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div> </div> 
+        
+        
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+                                          
+            <span>Ch2. Fonctions usuelles</span> 
+            <section class="btn">
+                <a  class="expand" href=https://drive.google.com/file/d/1xckpHelpkZZ76dPTR8vSbro47Lv6vslH/view?usp=drive_link">Cours</a> 
+                <a  class="expand" href="https://drive.google.com/file/d/1vBuHu6Vg_1vde8_v1ZK-LOQLckFbMjcl/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div> </div>
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch3. Primitives et équations différentielles linéaires</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1u5xBBhpYHqY24MMvYMKXPKjgYvuPVKQu/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/14FGmEOh8OAt_e2BRdFS5vFSoo9FFgti8/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch4. Suites numériques</span> 
+            <section class="btn"> 
+                <a  class="expand" href="https://drive.google.com/file/d/1zITI_xYgX4vz4UIZfwDG11CwbRI8pbog/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1Vc8cx6_sNeS-061loD_U0OcF587IdJt1/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch5. Limites- Continuité</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1z0fsLl4SaJ1De1O-AQtvAg8IT9cO10NJ/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1Cmf7k9hGUVgSqnXYMrvH48eqOff2GWLg/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch6. Dérivabilité</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1ChGoMAzkrwNKOHF2rl_w7cg3AHL5ZEv0/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1_YsN2v_C_-xMwSxBK1eFRPNl_fbaZnER/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch7. Analyse asymptotique </span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1y5MBqUuq0kjMmFCNzJtarRLVY_W01_I2/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1x3mcIR_rxE4H6dhbgJL-_YKx4pPmqTJO/view?usp=drive_link">TD</a>
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+            <div class="chaptre">
+                
+                <span>Ch8. Intégration</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1qYoTSvRo7EtUmVIQDbsZO1ocUM6C4cOw/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1l2HY60Mw4Ixy1PslyvjPMXXlzRFvBR26/view?usp=drive_link">TD</a>
+            </section>
+    
+            </div> </div>
+
+            <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                    
+                    <span>Ch9. Séries numériques</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1dynVVAAkdYWIJi7O3-09QBwP5ff_8XG9/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1C7bNn3h5oLvwF9FoByRO4nXwJN3LQFQR/view?usp=drive_link">TD</a>
+            </section>
+        
+                </div> </div>
+            <div style="display: flex;justify-content: center">
+                    <div class="chaptre">
+                        
+                        <span>Ch10. Dénombrement</span> 
+                        <section class="btn">
+                            <a  class="expand" href="https://drive.google.com/file/d/1tyVNSVh9okB88FQi5W3hReMBJvaNMvIn/view?usp=drive_link">Cours</a>
+                            <a  class="expand" href="https://drive.google.com/file/d/1MjZbSjFEUYt2Ik1EB9J4QC77aF7q-fHi/view?usp=drive_link">TD</a>
+                        </section>
+            
+                    </div> </div>
+                    <div style="display: flex;justify-content: center">
+                        <div class="chaptre">
+                            <span>Ch11. Probabilités</span> 
+                            <section class="btn">
+                                <a  class="expand" href="https://drive.google.com/file/d/1-YdGxIA-gUHpiQgjrWc4DlKkZFcNED2q/view?usp=drive_link">Cours</a>
+                                <a  class="expand" href="https://drive.google.com/file/d/1fTXA3iDZkDJd3JojtgINVfPjJFqmZ1I0/view?usp=drive_link">TD</a>
+                            </section>
+                
+                        </div> </div>
+                        <div style="display: flex;justify-content: center">
+                            <div class="chaptre">
+                                <span>Revision finale</span> 
+                                <section class="btn">
+                                    
+                                    <a  class="expand" href="https://drive.google.com/file/d/15sndsXm50E7FLznvAVylgAh7enQjlepO/view?usp=drive_link">TD</a>
+                                </section>
+                    
+                            </div> </div>
+    
+ 
+
+    <footer>
+        <p>&copy; 2024 Site 3alamni.tn . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phisique PT2</title>
+    <style>
+               
+
+            body {
+                background-color: #ff981a57;
+            font-family: Arial, sans-serif ;
+            display: flex ;
+            flex-direction: column ;
+            align-items: center ;
+            }
+            #topbar{
+                background-color: white;
+                display: flex ;
+                position: fixed;
+                flex-direction: row-reverse ;
+                justify-content: start ;
+                align-items: center ;
+                width: 100% ;
+                padding: 10px  20px ;
+                margin-top: px ;
+                
+                box-shadow: 0 0 10px rgba(248, 113, 3, 0.938) ;
+        }
+        .item1,a{
+            margin: 20px ;
+            font-size: 16px ;
+            color: rgb(49, 49, 49) ;
+            font-weight: bold ;
+            cursor: pointer ;
+        }
+        #acc{
+            display: flex ;
+            flex-direction: row ;
+            justify-content: space-between ;
+            align-items: center ;
+            margin-left: 100px ;
+        }
+        #acc div{
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #logo{
+            margin-right: 50px;
+            margin-left: 30px;
+        }
+        .item1:hover,a:hover{
+            color: #ed5411;
+            
+        }
+        #contenu{
+            color: #ed5411;
+        }
+        #sign_in:hover,#log_in:hover{
+            margin: 14px;
+            cursor: pointer;
+            border: 1px solid #ed5411;
+            border-radius: 10px;
+            color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            background-color: white;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+        /* ---------------------------------------- begin of site ---------------------------------------- */
+        a{
+            text-decoration: none;
+            margin: 10px;
+            padding: 0 ;
+        }
+        .topmat{
+            color: rgb(49, 49, 49) ;
+            display: flex;
+            margin-top: 100px;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            border-bottom: #313131e5;
+        }
+        img{
+            margin: 15px;
+            
+        }
+        h1,h2,h3{
+            color: rgb(49, 49, 49) ;
+            margin: 15px;
+        }
+        .pdf{
+            background-color: white;
+            width: 97%;
+            
+
+        }
+        .chaptre{
+            color: rgb(49, 49, 49) ;
+            font-size: 30px;
+            width: 90%;
+            border: 1px solid rgba(49, 49, 49, 0.253)  ;
+            border-radius: 10px;
+            margin:25px;
+            height: 75px;
+            font-weight: bold;
+            padding:15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chaptre span {
+            margin-left: 10px;
+        }
+        .expand{
+            font-size: 20px ;
+            color: white;
+            margin: 15px;
+            background-color: #ed5411;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .expand:hover{
+            font-size: 20px ;
+            background-color: #ed53118f;
+            color: white ;
+            margin: 15px ;
+            /* border: #0528f3 solid 1px ; */
+            border-radius: 10px ;
+            padding: 10px ;
+            text-align: center;
+        }
+        
+        
+        
+
+
+
+
+
+
+        /* ---------------------------------------- end of site ---------------------------------------- */
+        footer {
+            margin-top: 10px;
+            background-color: #ed5411;
+            color: #fff;
+            text-align: center;
+            bottom: 0;
+            position: relative;
+            width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <nav id="topbar">
+        <div id="acc">
+            <div id="sign_in" >Sign in</div>
+            <div id="log_in">Log in</div>
+        </div>
+        <div class="item1">Principale</div>
+        <div id="qsn" class="item1"><a href="./qsn.html">Qui somme nous ?</a></div>
+        <div class="item1" id="cntc"><a href="./contacter.html">Contacter nous</a> </div>
+        <div class="item1">Nos enseignant</div>
+        <div class="item1" id="contenu">Notre contenu</div>
+        
+        <img  id="logo" src="./logo-site.png" alt="3alamni">
+
+    </nav>
+    <!-- -------------------------------------------------------- -->
+    <div class="topmat">
+        
+            
+        <a href="pt2.html"><img src="./f1.1.png" alt="back"></a>
+            <h2>Phisique (PT2)</h3>
+        
+    </div>
+    <!-- -------------------------------------------------------- -->
+    <div class="pdf">
+        <h1>Physique (PT2)</h1>
+        <h2>Contenu du cours</h2>
+
+        <div class="chaptre">
+                                          
+            <span>Ch1. Filtrage</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1NPqdVnhfgCJpl_n1eK0iHnvjGENAHxkV/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div>
+        
+        
+        <div class="chaptre">
+
+            <span>Ch2. Transfert Thermique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1M5ar3cerKdPappuGG7hGNVGtoeuMvkU3/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1wj0TQDANc5H3TolUnEXnLm2QSbntXXmO/view?usp=drive_link">TD</a>
+                
+            </section>
+            
+        </div>   
+
+        <div class="chaptre">
+                                          
+            <span>Ch3. Rayonnement Thermique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/19xUyOxtZOjdX6Sm9czHnzgnmafcc41ph/view?usp=drive_link">Cours</a>                 
+            </section>
+        </div>
+        <div class="chaptre">
+                                          
+            <span>Ch4. Interfernce entre 2 ondes lumineuses</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1Ck9vZLsjxu2eoF2XdF8Y8Hqpj3Tsv-9W/view?usp=drive_link">Cours</a> 
+                
+            </section>
+        </div>
+        <div class="chaptre">
+                                          
+            <span>Ch5. Dispositif interferentiel par devision de front d'onde </span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1OVhYCA278ZgVl2v8T7Eok_MtZW9OnFcb/view?usp=drive_link">Cours</a> 
+                
+            </section>
+        </div>
+        <div class="chaptre">
+                                          
+            <span>Ch6. Force de la place</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1IMUSXfTjvpTv1mO7j3dNsylb6lxI5Ap4/view?usp=drive_link">Cours</a> 
+                <a  class="expand" href="https://drive.google.com/file/d/1RkTWET0HUt9yGbmshRUcZA1P4uiuBgtW/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div>
+        <div class="chaptre">
+                                          
+            <span>Ch7. Interferometre de michelson</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1X0n3fuYw1debkZ8Fn6NLDJ4rnSi7BscA/view?usp=drive_link">Cours</a> 
+                
+            </section>
+        </div>
+        <div class="chaptre">
+                                          
+            <span>Ch8. Les ondes electromagnetique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1MW7VXrqDOfMr43_2A9Eq7sTxEiWikKo4/view?usp=drive_link">Cours</a> 
+                <a  class="expand" href="https://drive.google.com/file/d/1pTk5-tJUUq2T1CrUFFlFfMi4DvKlZvzs/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div>
+        <div class="chaptre">
+            
+            <span>Ch9. Superposition de N ondes</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/14hLzKaqk6T9NcpopsV9AqKY_MNG56h_v/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1ge4ejFUpvICNC76HD_fHsx17Vj697YMD/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch10. Les ondes electromagnétique dans le milieu</span> 
+            <section class="btn"> 
+                <a  class="expand" href="https://drive.google.com/file/d/13dsRW3h5bYEwfk6i_hcXFBXJm-LV3_16/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1_Fr6xZfRBz2g_QUJU-dVXPt9Vt_6uOvD/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch11. Rayonnement d'un dipole oscillant</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1hJCVHlPEJuUf5a_u_V9TuF5u_tvW8_Mr/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1I66JtJ531qM7tpEhUyUeAK2MgBZ31KK0/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch12. Mecanique Quantique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1aqAzOKRYcPJ4S_xt5lD3_4p1_D68Qiaf/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch13. Phisique statique</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/15RwMC1LIvDhCHd_AKb58txBKNvhcLOgE/view?usp=drive_link">Resume</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1AFLtEzBnb40raf-7Muyp1d0DQu4NVGr_/view?usp=drive_link">TD</a>
+
+                
+            </section>
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Site 3alamni.tn . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

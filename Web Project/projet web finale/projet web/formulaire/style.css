@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh; 
+    
+    background-image: url('bg.jpg');
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Centers the background image */
+}
+
+.container {
+    background-color: white;
+    
+    width: 65%;
+    max-height: 50%; 
+    display: flex;
+    flex: 1;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%; 
+    background-color: #ff971a;
+    border-radius: 150px 0 0 100px;
+}
+
+.container form {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; 
+    padding: 0 40px;
+}
+
+.container span {
+    font-size: 12px;
+}
+
+.container button {
+    background-color: white;
+    padding: 10px 45px;
+} 
+
+.container input {
+    background-color: #eee;
+    margin: 8px 0;
+    height: 10%;
+    width: 75%;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 100px;
+    height: auto;
+}
+
+.encouraging-words p {
+    color: #ed5411; 
+    font-size: 50px;
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+footer {
+    background-color: #ed5411;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top:auto;
+}

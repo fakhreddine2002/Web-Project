@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section#history, section#goals, section#values {
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table td {
+    vertical-align: top;
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}

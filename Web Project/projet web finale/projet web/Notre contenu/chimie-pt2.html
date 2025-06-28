@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chimie  2eme année pt</title>
+    <style>
+               
+
+            body {
+                background-color: #ff981a57;
+            font-family: Arial, sans-serif ;
+            display: flex ;
+            flex-direction: column ;
+            align-items: center ;
+            }
+            #topbar{
+                background-color: white;
+                display: flex ;
+                position: fixed;
+                flex-direction: row-reverse ;
+                justify-content: start ;
+                align-items: center ;
+                width: 100% ;
+                padding: 10px  20px ;
+                margin-top: px ;
+                box-shadow: 0 0 10px rgba(248, 113, 3, 0.938) ;
+            }
+        .item1,a{
+            margin: 20px ;
+            font-size: 16px ;
+            color: rgb(49, 49, 49) ;
+            font-weight: bold ;
+            cursor: pointer ;
+        }
+        #acc{
+            display: flex ;
+            flex-direction: row ;
+            justify-content: space-between ;
+            align-items: center ;
+            margin-left: 100px ;
+            
+        }
+        #acc div{
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #logo{
+            margin-right: 50px;
+            margin-left: 30px;
+        }
+        .item1:hover,a:hover{
+            color: #ed5411;
+            
+        }
+        #contenu{
+            color: #ed5411;
+        }
+        #sign_in:hover,#log_in:hover{
+            margin: 14px;
+            cursor: pointer;
+            border: 1px solid #ed5411;
+            border-radius: 10px;
+            color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            background-color: white;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+        /* ---------------------------------------- begin of site ---------------------------------------- */
+        a{
+            text-decoration: none;
+            margin: 0;
+            padding: 0 ;
+        }
+        .topmat{
+            color: rgb(49, 49, 49) ;
+            display: flex;
+            margin-top: 100px;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            border-bottom: #313131e5;
+        }
+        img{
+            margin: 15px;
+            
+        }
+        h1,h2{
+            color: rgb(49, 49, 49) ;
+            margin: 15px;
+        }
+        h3{
+            font-size: 35px;
+            color: rgb(0, 0, 0) ;
+            margin: 15px;
+        }
+        .pdf{
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.5) ;
+            background-color : white;
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 15px;
+        }
+        .pdf h3 {
+            font-size: 25px;
+        }
+        .chaptre{
+            color: rgb(49, 49, 49) ;
+            font-size: 30px;
+            width: 70%;
+            border: 1px solid rgba(49, 49, 49, 0.253)  ;
+            border-radius: 10px;
+            margin:10px;
+            height: 55px;
+            font-weight: bold;
+            padding:15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chaptre span {
+            width: 600px;
+            font-size: 24px;
+        }
+        .expand{
+            font-size: 20px ;
+            color: white;
+            margin: 15px;
+            padding-right: 6px;
+           padding-left: 6px;
+            background-color: #ed5411;
+            border: none;
+            border-radius: 7px;
+            padding: 4px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .expand:hover{
+            font-size: 20px ;
+            background-color: #ed53118f;
+            color: white ;
+
+            
+            /* border: #0528f3 solid 1px ; */
+            border-radius: 7px ;
+            
+            text-align: center;
+        }
+        .ligne{
+            width: 100%;
+            height: 2px;
+            background-color: rgb(196, 196, 196);
+        }
+        .alg{
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* ---------------------------------------- end of site ---------------------------------------- */
+        footer {
+            margin-top: 50px;
+            background-color: #ed5411;
+            color: #fff;
+            text-align: center;
+            bottom: 0;
+            position: relative;
+            width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <nav id="topbar">
+        <div id="acc">
+            <div id="sign_in"><a href="../formulaire/signin.php">Inscription</a></div> 
+            <div id="log_in"><a href="../formulaire/login.php">Connexion</a></div> 
+        </div> 
+        <div class="item1"><a href="../opening and acceuille/Aceuille.html"> Principale</a></div> 
+        <div id="qsn" class="item1"><a href="../qsn/qsn.html">Qui somme nous ?</a></div> 
+        <div class="item1"  ><a  href="../contacter nous/contacter.php" id="cntc">Contacter nous</a> </div> 
+        <div class="item1"><a href="../enseignants/professors.html"> Nos enseignant</a></div> 
+        <div class="item1" ><a href="../Notre contenu/contenu.html" id="contenu">Notre contenu</a> </div> 
+        <img  id="logo" src="./logo-site.png" alt="3alamni">
+
+    </nav>
+    <!-- -------------------------------------------------------- -->
+
+    <div class="topmat">
+        
+            
+        <a href="pt1.html"><img src="./retour 62px.png" alt="back"></a>
+        
+            <h3>Chimie (pt2)</h3>
+        
+    </div> 
+    <!-- -------------------------------------------------------- -->
+    <div class="pdf">
+        <div class="alg"><h1>Chimie (PT2)</h1></div>
+        <div class="ligne"></div>
+        <div style="display: flex;justify-content: center "><h2>Contenu du cours</h2></div>
+    
+        
+        <div style="display: flex;justify-content: center ">
+        <div class="chaptre">
+
+            
+            <span>Ch1. Notion elementaire de cristallographie</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1blqGZ9uWqxc2Rwthvh_yOhmfiCLRr1WZ/view?usp=sharing">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1rj40kgkC9QNYZgXND2MISk29ZG0FHt6h/view?usp=drive_link">TD</a>
+                
+            </section>
+            
+
+        </div> </div> 
+        
+        
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+                                          
+            <span>Ch2.Cotation fonctionelle</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/drive/folders/1xsVnanV5nI6uDiKQNAzK1QRp2RkiLgOD?usp=drive_link">Cours</a> 
+                <a  class="expand" href="https://drive.google.com/drive/folders/1CSJz1EWZ7t48Rl9Vz32O37dnJaWvih0P?usp=drive_link">TD</a>
+                
+            </section>
+        </div> </div>
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch3. diagrame de phase unaire</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1nky-RNOAPYOmBGnjyYTy-Q2qRvwxxoj7/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1Z_48XLbY3yW9kjw-IkRzloW4Dz1niRNN/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div> </div>
+
+        
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch4. Diagrame binaire Liquide-vapeur</span> 
+            <section class="btn"> 
+                <a  class="expand" href="https://drive.google.com/file/d/1o_ODQaSclw32KroRSGxaLaV-fF_0_xN6/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1r83kb3Id01RdaZAQnmYjRrh8-jRiBcRk/view?usp=drive_link">TD</a>
+                
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch5. Diagrame binaire Liquide-vapeur miscibilité totale</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1c1ydnXLumS8YlfO8VHrxZHGeb9crdhoq/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/1r83kb3Id01RdaZAQnmYjRrh8-jRiBcRk/view?usp=drive_link">TD</a>
+                
+            </section>
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch6. Diagrame binaire Liquide-Liquide</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/12pgtRI4-BWkBjsTNJTQM7fAewh4tA-ns/view?usp=drive_link">Cours</a>
+
+                
+            </section>
+
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+        <div class="chaptre">
+            
+            <span>Ch7. Diagrame binaire Liquide-Solid</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1P7UIV1s2WcRFQaXwDdxm-feqO4eylQuR/view?usp=drive_link">Cours</a>
+                <a  class="expand" href="https://drive.google.com/file/d/17xVe5rCVof2n5JHLkgS8qtlmRxw7krg1/view?usp=drive_link">TD</a>
+            </section>
+
+        </div> </div>
+
+        <div style="display: flex;justify-content: center">
+            <div class="chaptre">
+                
+                <span>Ch8. Diagrame potentiel Ph</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/11iKUr5Sy8Q2hd5swpyyp4kb0_fNEw6Up/view?usp=drive_link">TD</a>
+            </section>
+
+    
+            </div> </div>
+             
+            <div style="display: flex;justify-content: center">
+                <div class="chaptre">
+                    
+                    <span>Ch9. Courbe i-E</span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/file/d/1eiGSUs_zt6dRsBMEMRTmowW7P0oBbTgW/view?usp=drive_link">TD</a>
+            </section>
+
+        
+                </div> </div>
+            
+                      
+    <footer>
+        <p>&copy; 2024 Site 3alamni.tn . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

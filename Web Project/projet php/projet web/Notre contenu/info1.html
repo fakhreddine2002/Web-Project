@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenu</title>
+    <style>
+               
+
+            body {
+                background-color: #ff981a57;
+            font-family: Arial, sans-serif ;
+            display: flex ;
+            flex-direction: column ;
+            align-items: center ;
+            }
+            #topbar{
+                background-color: white;
+                display: flex ;
+                position: fixed;
+                flex-direction: row-reverse ;
+                justify-content: start ;
+                align-items: center ;
+                width: 100% ;
+                padding: 10px  20px ;
+                margin-top: px ;
+                
+                box-shadow: 0 0 10px rgba(248, 113, 3, 0.938) ;
+        }
+        .item1,a{
+            margin: 20px ;
+            font-size: 16px ;
+            color: rgb(49, 49, 49) ;
+            font-weight: bold ;
+            cursor: pointer ;
+        }
+        #acc{
+            display: flex ;
+            flex-direction: row ;
+            justify-content: space-between ;
+            align-items: center ;
+            margin-left: 100px ;
+        }
+        #acc div{
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #logo{
+            margin-right: 50px;
+            margin-left: 30px;
+        }
+        .item1:hover,a:hover{
+            color: #ed5411;
+            
+        }
+        #contenu{
+            color: #ed5411;
+        }
+        #sign_in:hover,#log_in:hover{
+            margin: 14px;
+            cursor: pointer;
+            border: 1px solid #ed5411;
+            border-radius: 10px;
+            color: #ed5411;
+            padding: 5px 10px;
+            font-size: 20px;
+            background-color: white;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+        /* ---------------------------------------- begin of site ---------------------------------------- */
+        a{
+            text-decoration: none;
+            margin: 10px;
+            padding: 0 ;
+        }
+        .topmat{
+            color: rgb(49, 49, 49) ;
+            display: flex;
+            margin-top: 100px;
+            width: 100%;
+            justify-content: start;
+            align-items: center;
+            border-bottom: #313131e5;
+        }
+        img{
+            margin: 15px;
+            
+        }
+        h1,h2,h3{
+            color: rgb(49, 49, 49) ;
+            margin: 15px;
+        }
+        .pdf{
+            background-color: white;
+            width: 97%;
+            
+
+        }
+        .chaptre{
+            color: rgb(49, 49, 49) ;
+            font-size: 30px;
+            width: 90%;
+            border: 1px solid rgba(49, 49, 49, 0.253)  ;
+            border-radius: 10px;
+            margin:25px;
+            height: 75px;
+            font-weight: bold;
+            padding:15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chaptre span {
+            margin-left: 10px;
+        }
+        .expand{
+            font-size: 20px ;
+            color: white;
+            margin: 15px;
+            background-color: #ed5411;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .expand:hover{
+            font-size: 20px ;
+            background-color: #ed53118f;
+            color: white ;
+            margin: 15px ;
+            /* border: #0528f3 solid 1px ; */
+            border-radius: 10px ;
+            padding: 10px ;
+            text-align: center;
+        }
+        
+        
+        
+
+
+
+
+
+
+        /* ---------------------------------------- end of site ---------------------------------------- */
+        footer {
+            margin-top: 10px;
+            background-color: #ed5411;
+            color: #fff;
+            text-align: center;
+            bottom: 0;
+            position: relative;
+            width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <nav id="topbar">
+        <div id="acc">
+            <div id="sign_in" >Sign in</div>
+            <div id="log_in">Log in</div>
+        </div>
+        <div class="item1">Principale</div>
+        <div id="qsn" class="item1"><a href="./qsn.html">Qui somme nous ?</a></div>
+        <div class="item1" id="cntc"><a href="./contacter.html">Contacter nous</a> </div>
+        <div class="item1">Nos enseignant</div>
+        <div class="item1" id="contenu">Notre contenu</div>
+        
+        <img  id="logo" src="./logo-site.png" alt="3alamni">
+
+    </nav>
+    <!-- -------------------------------------------------------- -->
+    <div class="topmat">
+        
+            
+        <a href="pt1.html"><img src="./f1.1.png" alt="back"></a>
+            <h2>Informatique (PT1)</h3>
+        
+    </div>
+    <!-- -------------------------------------------------------- -->
+    <div class="pdf">
+        <h1>Informatique (PT1)</h1>
+        <h2>Contenu du cours</h2>
+        
+        
+        <div class="chaptre">
+
+            <span>Ch1. Structures conditionelles </span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/drive/folders/13xfQWUK_NEeJ3iYYK_9hembHjRxkqMHo?usp=drive_link">Cours</a>
+                
+                
+            </section>
+            
+        </div>   
+
+        <div class="chaptre">
+                                          
+            <span>Ch2.les structures des controles simples </span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/drive/folders/1XfvYsPFuQFbPN34ifQwvmbVRjOHqYttt?usp=drive_link">Cours</a> 
+                <!-- <a  class="expand" href="https://drive.google.com/drive/folders/1CSJz1EWZ7t48Rl9Vz32O37dnJaWvih0P?usp=drive_link">TD</a> -->
+                
+            </section>
+        </div>
+        <div class="chaptre">
+            
+            <span>Ch3.les structures des données </span> 
+            <section class="btn">
+                <a  class="expand" href="https://drive.google.com/drive/folders/11A8BWHCcSKZX8vq9aKEgHcKofZVbeK3V?usp=drive_link">Cours</a>
+                <!-- <a  class="expand" href="https://drive.google.com/drive/folders/1brOqZQeXVF42MD9Dq4w9hdurChMkWU2V?usp=drive_link">TD</a> -->
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Ch4.Les structures iteratives </span> 
+            <section class="btn"> 
+                <a  class="expand" href="https://drive.google.com/drive/folders/1dZziosSrb5Jmn_DZpS7tjVLYzJmKypFf?usp=drive_link">Cours</a>
+                
+                
+            </section>
+
+        </div>
+
+        <div class="chaptre">
+            
+            <span>Resumé python</span> 
+            <section class="btn">
+                <!-- <a  class="expand" href="">Cours</a> -->
+                <a  class="expand" href="https://drive.google.com/file/d/1HcIVjCb9IOeYulaj61JbIYCB7TnUg6fa/view?usp=drive_link">poursuivre</a>
+                
+            </section>
+
+        </div>
+</div>
+
+    <footer>
+        <p>&copy; 2024 Site 3alamni.tn . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
